@@ -31,3 +31,8 @@ contract SimpleStorage {
         nameToFavoriteNumber[_name] = _favoriteNumber;
     }
 }
+
+//calldata and memory will exist in memory for small time 
+// memory can changed , temp data
+// call data cannot be changed or modified , temp data
+// storage data cannot be changed or modified , permenent data
