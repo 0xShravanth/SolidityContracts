@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleStorage/AddFiveStorage.sol": "AddFiveStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleStorage/AddFiveStorage.sol": {
+			"keccak256": "0x0d4597468b951f89c95e7cf17990c4bef278cdbaee31e75942ed769e4ffe5e98",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f14f49ba99bcca97a9388ba8a049166d8f705aa0bfa11d8dc5fa5776d04c89b0",
+				"dweb:/ipfs/QmTBGQvG8ZT7Sjfs7NeDwsPwMWxQjMjvmRoNYg4HUbCf83"
+			]
+		},
+		"SimpleStorage/SimpleStorage.sol": {
+			"keccak256": "0xf03dcc9b856b8b76118a08da9c75afb0fca6df04f44b6a7134c6b8b943ff8673",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8baba33b72f90291c0a9310607e15978c077234b599283665ce9de9af7129908",
+				"dweb:/ipfs/QmTW3VJFNBcP4TzfdVVh7fJ6KKAuU5L4WJoXAL3xhyTArb"
+			]
+		}
+	},
+	"version": 1
+}
